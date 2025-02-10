@@ -1,0 +1,26 @@
+name: GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run daily at midnight (UTC)
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+
+      - name: Set up GitHub Stats Action
+        uses: anmol098.github-readme-stats@v1
+        with:
+          username: zubair549
+          access_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token
