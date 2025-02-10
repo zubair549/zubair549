@@ -20,7 +20,7 @@ jobs:
           ruby-version: 3.0
 
       - name: Set up GitHub Stats Action
-        uses: anmol098.github-readme-stats@v1
+        uses: ramansharma42/github-readme-stats@v1
         with:
           username: zubair549
           access_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token
