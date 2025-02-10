@@ -20,7 +20,7 @@ jobs:
           ruby-version: 3.0
 
       - name: Set up GitHub Stats Action
-        uses: zubair549/.github/workflowsgithub-stats.yml@v1
+        uses: zubair549/zubair549/github-stats.yml@v1
         with:
           username: zubair549
           access_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token
