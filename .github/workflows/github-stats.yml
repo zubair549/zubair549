@@ -20,8 +20,7 @@ jobs:
           ruby-version: 3.0
 
       - name: Set up GitHub Stats Action
-        uses: zubair549/github-stats@v1
+        uses: anmol098/github-readme-stats@v1  # Corrected the action reference
         with:
           username: zubair549
-          access_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token
-
+          access_token: ${{ secrets.GITHUB_TOKEN }}
