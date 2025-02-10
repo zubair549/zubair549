@@ -14,9 +14,13 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
-      - name: Set up GitHub Stats by DenverCoder1
-        uses: DenverCoder1/github-readme-stats@v1  # Use v1 instead of v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+
+      - name: Set up GitHub Stats Action
+        uses: zubair549/.github/workflowsgithub-stats.yml@v1
         with:
           username: zubair549
-          theme: radical  # You can change the theme (e.g., dark, radical, etc.)
-          hide_title: true # You can hide the title if you like
+          access_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this token
