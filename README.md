@@ -16,7 +16,7 @@
 
 💼 **Full-Stack Engineer** | 🚀 **Ruby on Rails Developer**  
 
-With over **𝟑 years of experience** in full-stack development and a passion for creating digital experiences, I turn ideas into reality, specializing in **top-notch web solutions**.  
+With over **years of experience** in full-stack development and a passion for creating digital experiences, I turn ideas into reality, specializing in **top-notch web solutions**.  
 
 ✅ Built products used by **Apple, Amazon, Microsoft, Uber, PepsiCo, Netflix, Harvard, Stanford, NBC, BBC, CNN, Deloitte,** and many others.  
 
